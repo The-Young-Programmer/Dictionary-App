@@ -1,0 +1,50 @@
+<!-- Created by Nemonet (TYP 💻) -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dictionary App</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="sheet.css" />
+    </head>
+    <body onload="check()">
+    <!---Setting Background-->
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+        <div id="circle3"></div>
+        <div id="circle4"></div>
+        <div id="square1"></div>
+        <div id="square2"></div>
+        
+    <!---Main Code--->
+    <a href="https://the-young-programmer.github.io/The-Young-Programmer/ " target="_blank">
+        <div id="title">Dictionary App<br>TYP 💻</div>
+        </a>
+        <input type="text" placeholder="Type a word..." value="Programming">
+        <button onclick="check()">Check</button>
+        <div id="word">
+            <table>
+            <tr>
+                <td><span></span></td>
+                <td rowspan="2">
+                    <i onclick="play()" class="fa fa-play"></i>
+                </td>
+            </tr>
+            <tr>
+                <td><span id="txt"></span></td>
+            </tr>
+            </table>
+        </div>
+        <center>
+        <div id='load'></div>
+        </center>
+        <audio id="prc"></audio>
+        <div id="deflist"></div>
+        
+        
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>
