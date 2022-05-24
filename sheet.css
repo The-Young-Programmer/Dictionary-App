@@ -1,0 +1,248 @@
+/* Created by Nemonet   TYP 💻*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 37);
+}
+
+
+
+#circle1 {
+    border-radius:1000%;
+    position:absolute ;
+    height:200px;
+    z-index:-1; 
+    background: linear-gradient(90deg, rgba(255,0,192,1) 0%, rgba(255,127,0,1) 100%);
+    width:200px;
+    left:-30px;
+    top: -30px;
+    
+}
+
+#circle2 {
+    border-radius:1000%;
+    position:absolute ;
+    height:100px;
+    z-index:-1; 
+    background:linear-gradient(120deg, #4776e6, #8e54e9);
+    width:200px;
+    top: 450px;
+    right :-50px;
+    transform:rotate(270deg);
+    border-radius: 150px 150px 0 0; 
+}
+
+#circle3 {
+    border-radius:1000%;
+    position:absolute ;
+    height:100px;
+    z-index:-1; 
+    background: linear-gradient(130deg, #02aab0, lime);
+    width:80px;
+    top: 150px;
+    right :10px;
+    transform:rotate(270deg);
+    border-radius: 150px 150px 0 0;
+}
+
+#circle4 {
+    border-radius:1000%;
+    position:absolute ;
+    height:60px;
+    z-index:-1; 
+    background: linear-gradient(130deg, tomato, darkred);
+    border-radius: 150px 150px 0 0; 
+    width:120px;
+    transform:rotate(220deg);
+    top: 270px;
+    right :200px;
+}
+
+
+#square1 {
+    border-radius:10px;
+    transform: rotate(45deg);
+    position:absolute ;
+    height:200px;
+    z-index:-1;
+    background: linear-gradient(135deg, #00d2ff, skyblue);
+    width:200px;
+    left:-170px;
+    top:350px;
+}
+
+#square2 {
+    border-radius:10px;
+    transform: rotate(45deg);
+    position: absolute;
+    height:70px;
+    z-index:-1;
+    background: linear-gradient(135deg, violet, purple);
+    width:70px;
+    left:80px;
+    top:550px;
+}
+
+#title {
+    background: rgba(171, 0, 0, 0.21);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.48);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+#word {
+    background: linear-gradient(to left, crimson, tomato);
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    background: rgba(171, 0, 0, 0.21);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.48);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#pronounce {
+    background: linear-gradient(to left, crimson, tomato);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    background: rgba(171, 0, 0, 0.21);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.48);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 5px;
+}
+#def {
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    color: white;
+    background: rgba( 171, 0, 0, 0.21 );
+    backdrop-filter: blur( 30px );
+    text-transform: capitalize;
+    border: 1px solid rgba( 255, 255, 255, 0.25 );
+    display: inline-block;
+    min-height: 210px;
+    min-width: 180px;
+    max-width: 210px;
+    margin: 15px;
+    flex :0 0 auto;
+}
+
+#deflist {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width:100%;
+}
+#pronounce i {
+    margin-left: 40px;
+    font-size: 22px;
+}
+hr {
+    border-width:0;
+    background-color: white;
+    height: 1px;
+}
+
+#pof, #df, #ex, span {
+    text-transform: capitalize;
+}
+
+#ex {
+    font-size: 16px;
+}
+
+input:focus, input:active, input:hover, button:focus, button:active, button:hover {
+    outline:0;
+    outline-color:transparent;
+}
+
+input {
+    background: rgba(171, 0, 0, 0.21);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    max-width: 70%;
+    padding: 8px;
+    
+}
+input::placeholder {
+    color: white;
+    opacity:0.8;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: rgba(171, 0, 0, 0.21);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    width: 100px;
+    max-width: 24%;
+    padding: 8px;
+    
+}
+#txt {
+    font-size: 15px;
+}
+table tr:first-child td:first-child {
+    width:300px;
+    display:inline-block;
+    
+}
+table tr:first-child td:last-child {
+    position: absolute;
+    right:30px;
+    top:28px;
+    font-size: 28px;
+}
+button:active {
+    box-shadow: 0 8px 20px 2px rgba(31, 38, 135, 1);;
+}
+
+#load {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loading 1.5s linear infinite;
+    margin-top: 100px;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
